@@ -1,0 +1,76 @@
+header
+{
+    height: 200px;
+    background: linear-gradient(to top right, black, plum);
+}
+
+nav {
+    float:right;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu > ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu > ul li a {
+    display: block;
+    background: blanchedalmond;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: maroon;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 3s ease;
+}
+
+.menu > ul li{
+    position:relative;
+    border-right: 1px solid chocolate;
+}
+
+.menu > ul li:first-child{
+    border-left: 1px solid chocolate;
+}
+
+.menu > ul li:last-child{
+    border-right: 1px solid chocolate;
+}
+
+.menu li a:hover{
+    background:darksalmon;
+    color:white;
+    box-shadow: 1px 5px 10px -3px brown;
+    transition: all 0.1s ease;
+}
+
+.menu li ul{
+    position:absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.menu li > ul li{
+    border: 1px solid chocolate;
+}
+
+.menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: blanchedalmond;
+}
+
+.menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top:0;
+}
+
+.menu li:hover > ul{
+    display:block;
+}
