@@ -1,7 +1,8 @@
 header
 {
-    height: 200px;
+    height: 350px;
     background: linear-gradient(to top right, black, plum);
+    border-bottom: 2px solid black;
 }
 
 nav {
@@ -16,6 +17,7 @@ nav {
 .menu > ul{
     display: flex;
     justify-content: center;
+    list-style-type:none;
 }
 
 .menu > ul li a {
@@ -26,20 +28,25 @@ nav {
     color: maroon;
     text-transform: uppercase;
     text-decoration: none;
+    list-style-type:none;
     transition: all 3s ease;
+    
 }
 
 .menu > ul li{
     position:relative;
     border-right: 1px solid chocolate;
+    
 }
 
 .menu > ul li:first-child{
     border-left: 1px solid chocolate;
+    
 }
 
 .menu > ul li:last-child{
     border-right: 1px solid chocolate;
+     
 }
 
 .menu li a:hover{
@@ -47,12 +54,14 @@ nav {
     color:white;
     box-shadow: 1px 5px 10px -3px brown;
     transition: all 0.1s ease;
+    list-style-type:none;
 }
 
 .menu li ul{
     position:absolute;
     min-width: 150px;
     display: none;
+    list-style-type:none;
 }
 
 .menu li > ul li{
@@ -73,4 +82,40 @@ nav {
 
 .menu li:hover > ul{
     display:block;
+}
+
+.container{
+    width:930px;
+    margin:0 auto;
+}
+
+.title{
+    font-size: 30px;
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;  
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    width: 100%;
+    clear:both;
+}
+
+footer{
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background: linear-gradient(to top right, black, plum);
+    border-top: 2px solid black;
+}
+
+.rights{
+    color: ghostwhite;
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 18px;
 }
