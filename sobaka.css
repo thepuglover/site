@@ -1,0 +1,18 @@
+.service {
+    margin-top: 80px;
+}
+
+.service_items {
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+
+.service_items:last-child {
+    float: right;
+}
+
+.service_items:nth-child(2){
+   margin-left: 200px;
+   
+}

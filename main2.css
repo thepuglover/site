@@ -1,0 +1,83 @@
+header {
+    background: bisque;
+    border: 1px solid black;
+    padding: 15px 0 15px 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Jokerman;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav {
+    width: 150px;
+    background: bisque;
+    border: 1px solid black;
+    float: left;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    font-size: 18px;
+    color: black;
+    font-family: Jokerman;
+}
+
+nav li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+section {
+    background: linen;
+    border: 1px solid white;
+    margin-left: 165px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: bisque;
+    border: 1px solid black;
+    width: 98%;
+    float: left;
+    padding: 1%;
+    font-size: 90%;
+}
+
+.rights {
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 18px;
+}
+
+.social {
+    float: left;
+    width: 50%;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 15px;
+}
+
+p {
+    color: darkred;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+p.zapovit {
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
